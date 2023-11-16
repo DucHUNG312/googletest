@@ -4,8 +4,8 @@ project "Gtest"
     cppdialect "C++20"
     staticruntime "off"
     
-    targetdir ("bin/" .. outputdir .. "/%{prj.name}")
-    objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
+    targetdir ("build/" .. outputdir .. "/%{prj.name}")
+    objdir ("build-int/" .. outputdir .. "/%{prj.name}")
 
     files
     {
